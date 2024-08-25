@@ -1,0 +1,21 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.video-container {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    width: 100%;
+  }
+}
